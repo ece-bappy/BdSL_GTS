@@ -1,0 +1,26 @@
+open command prompt
+
+
+Input these commands(one by one)
+(You may have to type 'y' and hit enter to uninstall a package)
+
+
+>pip uninstall opencv-python
+>pip install opencv-python==4.7.0.68
+
+
+>pip uninstall scikit-learn
+>pip install scikit-learn==1.2.0
+
+>pip uninstall mediapipe
+>pip install mediapipe==0.9.0.1
+
+
+after all package are installed
+open powerShell (search for it in start)
+
+type 
+
+>cd: "directory of the final_script.py file) [for example, if it is in local disk d and in project folder, type cd: D:\project]
+>python final_script.py
+
